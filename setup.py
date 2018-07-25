@@ -40,7 +40,8 @@ setup(
     install_requires=[
         'django-modeldict-yplan>=1.5.0',
         'nexus-yplan>=1.6.0',
-        'django-jsonfield>=0.9.2,!=0.9.13,!=1.0.0',
+# NOTE: removing this so that jsonfield can be used instead
+#        'django-jsonfield>=0.9.2,!=0.9.13,!=1.0.0',
     ],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
     extras_require={
